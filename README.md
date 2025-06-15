@@ -47,7 +47,9 @@ We follow the experimental setting from [DWL](https://github.com/zhu-xlab/RS-DWL
 ```
 ### Pre-trained Encoders
 Download the following pretrained models and place them in the ./pretrained directory:
+
 [DINOv2-Small](https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth) | [DINOv2-Base](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth) | [Clip-L](https://huggingface.co/openai/clip-vit-large-patch14)
+
 Expected directory structure:
 ```
 ├── ./pretrained
