@@ -7,6 +7,8 @@ First, create a new Conda environment using the `environment.yaml` file provided
 
 ```bash
 conda env create -f environment.yaml
+```
 Once the environment is created, activate it using the following command:
 ```bash
 conda activate Semi
+```
