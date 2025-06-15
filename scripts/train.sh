@@ -1,10 +1,8 @@
 #!/bin/bash
 
 # modify these augments if you want to try other datasets, splits or methods
-# dataset: ['pascal', 'cityscapes', 'ade20k', 'coco']
-# method: ['unimatch_v2', 'fixmatch', 'supervised']
-# exp: just for specifying the 'save_path'
-# split: ['92', '1_16', ...]. Please check directory './splits/$dataset' for concrete splits
+# dataset: ['loveda', 'deepglobe', 'Potsdam']
+# method: ['fixmatch_distill_with_models', 'fixmatch', 'supervised']
 dataset='loveda'
 method='fixmatch_distill_with_models'
 exp='fixmatch_distill_with_models'
